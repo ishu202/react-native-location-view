@@ -24,7 +24,7 @@ export default class LocationView extends React.Component {
     }).isRequired,
     markerColor: PropTypes.string,
     actionButtonStyle: ViewPropTypes.style,
-    actionTextStyle: Text.propTypes.style,
+    actionTextStyle: PropTypes.shape(TextStyle),
     actionText: PropTypes.string,
     onLocationSelect: PropTypes.func,
     debounceDuration: PropTypes.number,
