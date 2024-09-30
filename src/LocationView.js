@@ -1,7 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, StyleSheet, Animated, Platform, UIManager, 
-  TouchableOpacity, Text, ViewPropTypes } from 'react-native';
+import { View, StyleSheet, Animated, Platform, UIManager,
+  TouchableOpacity, Text , TextStyle } from 'react-native';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Entypo from 'react-native-vector-icons/Entypo';
 import axios from 'axios';
